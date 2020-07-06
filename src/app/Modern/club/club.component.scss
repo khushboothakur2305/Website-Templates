@@ -30,3 +30,42 @@ mat-card{
 mat-card-content{
   text-align: center;
 }
+.bg {
+  /* The image used */
+  background-image: url("/assets/Images/Modern/club/main.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg1 {
+  /* The image used */
+  background-image: url("/assets/Images/Modern/club/drinks.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg2 {
+  /* The image used */
+  background-image: url("/assets/Images/Modern/club/party.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg3 {
+  /* The image used */
+  background-image: url("/assets/Images/Modern/club/club.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
