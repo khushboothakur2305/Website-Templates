@@ -12,6 +12,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { ClubComponent } from './modern/club/club.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ClubComponent } from './modern/club/club.component';
     MediHerbalComponent,
     SmileStoreComponent,
     REximComponent,
-    ClubComponent
+    ClubComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
