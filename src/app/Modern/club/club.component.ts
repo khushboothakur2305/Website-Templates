@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, HostListener } from '@angular/core';
+import { EventEmitter } from 'events';
 
 @Component({
   selector: 'app-club',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./club.component.scss']
 })
 export class ClubComponent implements OnInit {
-
   constructor() { }
+  @Output() sidenavToggle = new EventEmitter();
+  isAuth = false;
 
-  ngOnInit(): void {
+  onToggleSidenav() {
+    this.sidenavToggle.emit;
   }
-
+  ngOnInit(): void {}
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
+  }
 }
