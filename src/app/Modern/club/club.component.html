@@ -1,33 +1,31 @@
 <mat-toolbar>
   <div fxHide.gt-md>
-  <button mat-icon-button (click)="onToggleSidenav()">
-    <mat-icon>menu</mat-icon>
-  </button>
-</div>
-<div >
-  <a
-    style="
-      font-size: xx-large;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    "
-    routerLink="/Home"
-  >
-    R-Exim-India</a
-  >
-</div>
-<div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.lt-md>
-  <button class="navbarbut">Home</button>
-  <button class="navbarbut" (click)="scroll(about)" >About Us</button>
-  <button class="navbarbut" (click)="scroll(services)" >Our Services</button>
-  <button class="navbarbut"  >Projects</button>
-  <button class="navbarbut" (click)="scroll(target)" >Contact Us</button>
-</div>
+    <button mat-icon-button (click)="onToggleSidenav()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+  <div>
+    <a
+      style="
+        font-size: xx-large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      "
+      routerLink="/Home"
+    >
+     Company Name</a
+    >
+  </div>
+  <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.lt-md>
+    <button class="navbarbut">Home</button>
+    <button class="navbarbut" (click)="scroll(about)">About Us</button>
+    <button class="navbarbut" (click)="scroll(services)">Our Services</button>
+    <button class="navbarbut">Projects</button>
+    <button class="navbarbut" (click)="scroll(target)">Contact Us</button>
+  </div>
 </mat-toolbar>
 
-
 <div fxHide.lt-md>
-
-   <div class="container">
+  <div class="container">
     <div class="bg"></div>
     <div class="centered">
       <section
@@ -150,135 +148,137 @@
         </div>
       </mat-card-content>
     </mat-card>
-    <br /><br /><br /> </div>
-
-  <div style="height:500px;" class="bg2"></div>
-  <br /><br /><br />
-<div fxLayout="column" fxLayoutAlign="center">
-  <div>
-    <p
-      style="
-        color: rgb(247, 76, 76);
-        font-size: 35px;
-        text-align: center;
-        padding: 30px;
-      "
-    >
-      MEET OUR TEAM
-    </p>
+    <br /><br /><br />
   </div>
-  <div fxLayout fxLayoutAlign="center center" fxLayoutGap="60px">
-    <section>
-      <mat-card style="background-color: black; color: white;">
-        <img
-          style="height: 300px; width: 300px; border-radius: 50%;"
-          src="\assets\Images\Modern\club\team.jpg"
-        />
-        <mat-card-content
-          ><br />
-          <p>Name</p>
-          <p>
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-          </p>
-        </mat-card-content>
-      </mat-card>
-    </section>
-    <section>
-      <mat-card style="background-color: black; color: white;">
-        <img
-          style="height: 300px; width: 300px; border-radius: 50%;"
-          src="\assets\Images\Modern\club\team.jpg"
-        />
-        <mat-card-content
-          ><br />
-          <p>Name</p>
-          <p>
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-          </p>
-        </mat-card-content>
-      </mat-card>
-    </section>
-    <section>
-      <mat-card style="background-color: black; color: white;">
-        <img
-          style="height: 300px; width: 300px; border-radius: 50%;"
-          src="\assets\Images\Modern\club\team.jpg"
-        />
-        <mat-card-content
-          ><br />
-          <p>Name</p>
-          <p>
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-            __________________________________________________<br />
-          </p>
-        </mat-card-content>
-      </mat-card>
-    </section>
-  </div></div>
+
+  <div style="height: 500px;" class="bg2"></div>
+  <br /><br /><br />
+  <div fxLayout="column" fxLayoutAlign="center">
+    <div>
+      <p
+        style="
+          color: rgb(247, 76, 76);
+          font-size: 35px;
+          text-align: center;
+          padding: 30px;
+        "
+      >
+        MEET OUR TEAM
+      </p>
+    </div>
+    <div fxLayout fxLayoutAlign="center center" fxLayoutGap="60px">
+      <section>
+        <mat-card style="background-color: black; color: white;">
+          <img
+            style="height: 300px; width: 300px; border-radius: 50%;"
+            src="\assets\Images\Modern\club\team.jpg"
+          />
+          <mat-card-content
+            ><br />
+            <p>Name</p>
+            <p>
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </section>
+      <section>
+        <mat-card style="background-color: black; color: white;">
+          <img
+            style="height: 300px; width: 300px; border-radius: 50%;"
+            src="\assets\Images\Modern\club\team.jpg"
+          />
+          <mat-card-content
+            ><br />
+            <p>Name</p>
+            <p>
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </section>
+      <section>
+        <mat-card style="background-color: black; color: white;">
+          <img
+            style="height: 300px; width: 300px; border-radius: 50%;"
+            src="\assets\Images\Modern\club\team.jpg"
+          />
+          <mat-card-content
+            ><br />
+            <p>Name</p>
+            <p>
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+              __________________________________________________<br />
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </section>
+    </div>
+  </div>
   <br /><br /><br />
   <div class="bg3"></div>
   <br /><br /><br />
   <div #target>
-  <div fxLayoutAlign="center">
-    <mat-card fxLayout fxLayoutAlign="center" fxLayoutGap="60px">
-      <section fxLayout="column" fxLayoutAlign="center center">
-        <p style="font-size: 40px;">Need More Details?</p>
-        <br />
-        <p style="font-size: 30px;">Contact Us</p>
-        <br /><br />
-        <p style="font-size: 20px;">Contact number :- 1547896325</p>
-        <br /><br />
-        <p style="font-size: 20px; text-align: right;">
-          Address: _________________________<br />
-          _________________________<br />
-          _________________________<br />
-          _________________________<br />
-        </p>
-        <br /><br />
-        <p style="font-size: 20px;">Email ID :- abc@xyz.com</p>
-        <br /><br />
-      </section>
-      <section>
-        <mat-card
-          fxLayoutAlign="center center"
-          style="width: 300px; height: 500px; font-size: 50px;"
-        >
-          FORM
-        </mat-card>
-      </section>
-      <section>
-        <mat-card
-          fxLayoutAlign="center center"
-          style="width: 300px; height: 500px; font-size: 50px;"
-        >
-          MAP
-        </mat-card>
-      </section>
-    </mat-card>
-  </div>
+    <div fxLayoutAlign="center">
+      <mat-card fxLayout fxLayoutAlign="center" fxLayoutGap="60px">
+        <section fxLayout="column" fxLayoutAlign="center center">
+          <p style="font-size: 40px;">Need More Details?</p>
+          <br />
+          <p style="font-size: 30px;">Contact Us</p>
+          <br /><br />
+          <p style="font-size: 20px;">Contact number :- 1547896325</p>
+          <br /><br />
+          <p style="font-size: 20px; text-align: right;">
+            Address: _________________________<br />
+            _________________________<br />
+            _________________________<br />
+            _________________________<br />
+          </p>
+          <br /><br />
+          <p style="font-size: 20px;">Email ID :- abc@xyz.com</p>
+          <br /><br />
+        </section>
+        <section>
+          <mat-card
+            fxLayoutAlign="center center"
+            style="width: 300px; height: 500px; font-size: 50px;"
+          >
+            FORM
+          </mat-card>
+        </section>
+        <section>
+          <mat-card
+            fxLayoutAlign="center center"
+            style="width: 300px; height: 500px; font-size: 50px;"
+          >
+            MAP
+          </mat-card>
+        </section>
+      </mat-card>
+    </div>
   </div>
 </div>
 
@@ -415,12 +415,14 @@
   <br /><br /><br />
   <div fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="60px">
     <section>
-      <p style="color:rgb(247, 76, 76); font-size: 20px;text-align: center;">Meet Our Team</p>
+      <p style="color: rgb(247, 76, 76); font-size: 20px; text-align: center;">
+        Meet Our Team
+      </p>
     </section>
-    <section>
-      <mat-card style="background-color: black; color: white;">
+    <section fxLayoutAlign="center center">
+      <mat-card style="background-color: black; color: white;width:250px">
         <img
-          style="height: 300px; width: 300px; border-radius: 50%;"
+          style="height:200px; width:200px; border-radius: 50%;"
           src="\assets\Images\Modern\club\team.jpg"
         />
         <mat-card-content
@@ -441,9 +443,9 @@
       </mat-card>
     </section>
     <section>
-      <mat-card style="background-color: black; color: white;">
+      <mat-card style="background-color: black; color: white;width:250px">
         <img
-          style="height: 300px; width: 300px; border-radius: 50%;"
+          style="height:200px; width:200px; border-radius: 50%;"
           src="\assets\Images\Modern\club\team.jpg"
         />
         <mat-card-content
@@ -464,9 +466,9 @@
       </mat-card>
     </section>
     <section>
-      <mat-card style="background-color: black; color: white;">
+      <mat-card style="background-color: black; color: white;width:250px">
         <img
-          style="height: 300px; width: 300px; border-radius: 50%;"
+          style="height:200px; width:200px; border-radius: 50%;"
           src="\assets\Images\Modern\club\team.jpg"
         />
         <mat-card-content

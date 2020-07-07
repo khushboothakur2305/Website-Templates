@@ -15,6 +15,7 @@ import { ClubComponent } from './modern/club/club.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import {MatIconModule} from '@angular/material/icon';
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import {MatIconModule} from '@angular/material/icon';
     REximComponent,
     ClubComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +35,8 @@ import {MatIconModule} from '@angular/material/icon';
     MatButtonModule,
     MatToolbarModule,
     FlexLayoutModule,
-    MatIconModule
+    MatIconModule,
+    FormsModule
 
   ],
   providers: [],
