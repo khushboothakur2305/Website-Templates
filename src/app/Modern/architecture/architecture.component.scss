@@ -41,7 +41,8 @@
 }
 mat-card {
   width: 350px;
-  height: 350px;
+  height: fit-content;
+  font-weight: bold;
 }
 .card {
   width: 350px;
@@ -106,12 +107,8 @@ mat-card {
   background-size: cover;
 }
 .person {
-  width: 300px;
-  height: 300px;
-}
-mat-card {
-  width: 300px;
-  height: 500px;
+  width: 350px;
+  height: 350px;
 }
 .icon {
   width: 150px;
@@ -123,4 +120,12 @@ mat-card {
   height: 90px;
   border-radius: 50%;
   align-items: center;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+mat-card-content {
+  font-size: 25px;
 }
